@@ -1,0 +1,26 @@
+
+
+/* 
+_id -> id del elemento
+   */
+
+#hola{
+    color: white;
+    background-color: black;
+
+}
+#chau{
+    color: blue;
+    background-color: aqua;
+
+}
+
+ /*
+ _clase -> clase del elemento 
+*/
+.auto{
+ color: red;
+ background-color: black;
+  
+}
+

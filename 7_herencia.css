@@ -1,0 +1,28 @@
+    /*   Herencia -> es la capacidad que tiene algunos elementos de heredar algunas ropiedades de sus elementos contenedores(padres,abueos,etc)
+
+    inherit -> lo que hace es absorver el color de la herencia
+
+    initial -> lo que hace es que rechasa la herencia 
+ */
+    
+    body{
+        background-color: #9ADCFF;
+    }
+    
+    .title{
+        color: blue;
+    }
+    .texto{
+        color: green;
+
+    }
+    [href]{
+        color: inherit;
+    }
+    .lista{
+        color: lightcoral;
+
+    }
+    .item-nohereda{
+        color: initial;
+    }

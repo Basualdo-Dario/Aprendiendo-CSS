@@ -1,0 +1,57 @@
+/* _[atributo]  */
+
+[href]{
+    color: rgb(251, 255, 0);
+    background-color: black;
+    margin: 20px;
+     
+    
+    }
+    /* 
+     [atributo = valor]
+    */
+    [href="https://www.netflix.com/browse"]{
+    
+        color: white;
+    }
+    /*
+     [atributo*= valor]
+    busca el valor no importando donde este
+    */
+    
+    [href*="color"]{
+    
+        color: green;
+    }
+
+
+    /* 
+     [atributo ^= valor]
+    busca el valor del principio
+    */
+    
+    [href^="color"]{
+    
+        color: aqua;
+
+    }
+
+    /* 
+    [atributo$= valor] 
+    busca el valor del final
+    */
+
+    [href$="color"]{
+    
+        color: red;
+
+    }
+/* 
+  [atributo|=valor]
+  esto hace que lo que este en otro idioma cambie , lo usa al lenguaje como atributo
+ */
+    [lang|="es"]{
+
+        color: white;
+        background-color: black;
+    }

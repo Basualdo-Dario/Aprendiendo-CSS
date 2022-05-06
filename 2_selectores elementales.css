@@ -1,0 +1,51 @@
+/* 
+selectores
+
+selectores simples
+        *selectores elementale
+                _selector universal -> *
+                _selector de tipo o etiqueta -> nombre de la etiqueta
+
+        *selectores atributo
+                _id -> id del elemento
+                _clase -> clase del elemento
+
+                otros atributos
+                _[atributo] -> [href] -- [h1].
+                [atributo = valor]
+                [atributo^= valor]
+                [atributo*= valor]
+                [atributo$= valor]
+                [atributo|=valor]
+selectores compuestos
+        *selectores agrupados       
+        *selectores combinadores
+                selector desendiente.
+                selector de hermano siguente "+"
+                selector de hijo directo
+                
+
+
+        *pseudo clases -pseudo elementos(lo veremos mas adelante)
+
+
+
+*/
+
+/* 
+_selector universal ->* 
+ */
+*{
+ background-color: aqua;
+}
+/*
+_selector de tipo o etiqueta  
+ */
+ h1{
+  color: #FFDEDE;
+  background-color: black;
+  margin-left:60px ;
+  margin-right: 700px;
+  margin-top: 50px;
+  
+ }

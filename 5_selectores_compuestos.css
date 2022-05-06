@@ -1,0 +1,64 @@
+
+/* selectores agrupados*/
+/* esto es mejor que hacerlo con cada clase */
+.texto-1,
+.texto-2,
+.texto-3,
+.texto-4{
+    background-color: lightblue;
+
+}
+
+/*
+.texto-1{
+    background-color: lightblue;
+
+}
+.texto-2{
+    background-color: lightblue;
+
+}
+.texto-3{
+    background-color: lightblue;
+
+}
+.texto-4{
+    background-color: lightblue;
+
+}
+*/
+
+/*selector desendiente*/
+/* lo recomendable es no bajar mas de un nivle como el de abajo */
+
+div .titulo{
+        background-color: aqua;
+
+    }
+
+    /* este no esta mal pero noescomendable pasar mas de un nivel */
+div section article .titulo{
+
+    background-color: aquamarine;
+}
+
+/* selector de hermano siguiente */
+
+.parrafo + .hermano{
+
+    color: darkkhaki;
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

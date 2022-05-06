@@ -1,0 +1,102 @@
+/* 
+Border:
+        es la propiedad que nos permite modificar el borde de la caja.
+        es un shorthand (propiedad abreviada) que agrupa 3 propiedade
+
+        border-width: ancho del borde.
+                    border-top-width.
+                    border-right-width.
+                    border-bottom-width.
+                    border-left-width.
+
+        border-color: color del borde.
+                    border-top-color.
+                    border-right-color.
+                    border-bottom-color.
+                    border-left-color.
+            
+        border-style: estilo del borde.
+                    border-top-style.
+                    border-right-style.
+                    border-bottom-style.
+                    border-left-style.
+
+            Listado de Valores para Style
+                    none     -> quita los bordes
+                    hidden   -> quita los bordes pero diferente 
+                    dotted   -> borde de puntos circulares  
+                    dashed   -> borde de puntos con cuadrados  
+                    solid    -> es e por defecto
+                    double   -> vorde doble  
+                    groove   -> hace una sombra 3D  
+                    ridge    -> hace una sombra 3D diferente 
+                    inset    -> sombra 3D diferente,diferente 
+                    outset   -> lo mismo que la anterior solo que invertido  
+
+  
+
+
+*/
+
+
+body{
+        background-color: aqua;
+        margin: 0;
+}
+
+.titulo1{
+        
+       
+        border-width: 10px;
+        border-style:solid;
+        border-top-color: blue;
+        border-right-color: yellow;
+        border-bottom-color: blue;
+        border-left-color: yellow;
+}
+
+.titulo2{
+    height: 80px;
+    width: 95px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 05px;
+    border-width: 10px;
+    border-style:dashed;
+    border-top-color: blue;
+    border-right-color: yellow;
+    border-bottom-color: blue;
+    border-left-color: yellow;
+
+}
+
+.titulo3{
+
+    border-width: 10px;
+    border-style:groove;
+    border-color:brown ;
+
+}
+
+
+
+/* 
+        box-sizig:
+                    es la propiedad que nos permite controlar el calculo que hace el navegador ala hora de modificar las propiedades content,padding y border.
+                    
+                los 2 valores que podemos darle son:
+                
+                    content-box ->valor por defecto
+                    border-box -> calculo de tamaño del elemento
+                                  incluyendo el padding y el border.
+
+
+
+        ej: si tenemos una caja de 200 de alto por 200 de ancho y
+             ponemos box-sizing:border-box;.
+             cuando le modificamos el borde y el padding estas modificaciones
+             se restan ala caja para que sea exacto un contenido de 200X200. 
+
+             sino le ponemos esa propiedad lacaja aumentara de tamaño conforme le aumentemos.
+
+*/

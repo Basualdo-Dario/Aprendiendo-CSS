@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+    color: lightseagreen;
+}
+.block{
+    background-color: wheat;
+    width: 150px;
+    height: 50px;
+
+}
+.inline{
+    background-color: white;
+    color: inherit;
+    width:  200px;
+    height: 200px;
+    /* 
+    en los elementos de linea el alto y ancho no funciona
+    */
+}
