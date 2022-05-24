@@ -1,0 +1,56 @@
+/* 
+
+*/
+
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    margin: 0;
+    
+
+}
+img{
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.header{
+    text-align: center;
+    background-color: aqua;
+    color: red;
+    position: sticky;
+    top: 0;
+    
+
+}
+.menu{
+height: 28px;
+   
+}
+.main{
+  
+
+}
+article p{
+    width: 400px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+.article-title{
+    text-align: center;
+    background-color: brown;
+    color: black;
+    position: sticky;
+    top: 0;
+    width: 150px;
+    margin-right: auto;
+    
+
+}

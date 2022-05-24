@@ -1,0 +1,23 @@
+
+/* 
+
+*/
+
+body{
+    margin: 0px;
+    padding-top: 50px;
+
+}
+
+.header{
+    text-align: center;
+    padding: 20px 0px;
+    background-color: darkcyan;
+    color: #111;
+    position: fixed;
+    top: 0px;
+    margin-left: auto;
+    margin-left: auto;
+    width: 100%;
+
+}

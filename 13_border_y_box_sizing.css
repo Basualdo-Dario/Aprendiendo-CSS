@@ -86,8 +86,8 @@ body{
                     
                 los 2 valores que podemos darle son:
                 
-                    content-box ->valor por defecto
-                    border-box -> calculo de tamaño del elemento
+                    content-box -> valor por defecto
+                    border-box  -> calculo de tamaño del elemento
                                   incluyendo el padding y el border.
 
 

@@ -1,0 +1,60 @@
+/* 
+      EL STACKING CONTEXT O EL CONTEXTO DE APILAMIENTO ES EL ESPACIO DONDE NUESTROS ELEMENTOS SEVAN A IR APILANDO PARA QUEUNO QUEDE POR DETRAS Y OTRO POR DELANTE.
+
+      el orden del STACKING CONTEXT es: (de adelante a atras):
+      Elementos posicionados con un z-index de o mas
+      Elementos posicionados sin z-index declarado (o z-index:auto)
+      Elementos no posicionados
+      Elementos con z-index negativo
+
+ */
+
+
+ body{
+    margin: 0;
+   
+
+ }
+ .box {
+   width: 100px;
+   height: 100px;
+   text-align: center;
+   color: #333;
+ }
+ 
+ .box-1 {
+   background-color: lightcoral;
+   position: relative;
+   z-index: 1;
+ }
+ 
+ .box-2 {
+   background-color: lightgreen;
+   margin-top: -50px;
+ }
+ 
+ .box-3 {
+   background-color: lightseagreen;
+ }
+ 
+ .container {
+   background-color: mediumslateblue;
+   margin-top: -50px;
+   position: relative;
+ }
+ 
+ .title {
+   margin: 0;
+   background-color: #ccc;
+   position: relative;
+   z-index: 10;
+   opacity: 0.50;
+ }
+ 
+ .text {
+   margin: 0;
+   margin-top: -10px;
+   position: relative;
+   z-index: 5;
+   opacity: 0.75;
+ }

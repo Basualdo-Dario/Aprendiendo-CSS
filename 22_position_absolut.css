@@ -1,0 +1,62 @@
+/* position absolute */
+
+.box{
+    text-align: center;
+    width: 100px;
+    height: 100px;
+
+}
+.box-1{
+    
+    background-color: greenyellow;      
+}
+.box-2{
+    background-color: yellow;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+
+/* position absolut con contenedor */
+
+.boxa{
+    text-align: center;
+    width: 100px;
+    height: 100px;
+
+}
+.container{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    position: absolute;
+
+    /* si pongo position(cualquiera) en el contenedor  la caja que esta adentro de el  sacara las medidas para moverse del contenedor*/
+}
+.box1{
+    
+    background-color: blue;  
+    position: absolute;
+    left: 0px;
+    bottom: 0px;    
+}
+.box2{
+    background-color: red;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+  
+}
+.line{
+
+    /* en los elementos de linea si le ponemos position absolute no hace falta poner display:block */
+    position: absolute;
+    background-color: black;
+    color: white;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    bottom: 0px;
+    left: 100px
+}

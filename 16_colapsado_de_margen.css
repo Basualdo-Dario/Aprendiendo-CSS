@@ -1,25 +1,47 @@
+/* 
+Los margenes verticales colapsan
 
+No juntar margen bottom con margen top por que colapsan y se restan.(con left y right no pasa nada)
+
+*/
 
 body{
     margin: 0;
     background-color: black;
 
 }
+/* solucionar el margen del h1 en un header */
 .header{
     background-color: lightcoral;
     height: 100px;
     margin-bottom: 20px;
+    overflow: hidden;
 
 }
 .caja1,.caja2 {
     background-color: white;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     width: 300px;
     height: 300px;
 
 }
+/* es recomendable ir empujando los margenes hacia abajo */
+.caja1{
+
+    margin-bottom: 30px;
+}
+
+/* solucionar el margen del h1 en un header */
+.title{
+   
+
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px; 
+    width: 400px;
+  
+}
 
 
-/* video#29 */
